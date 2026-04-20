@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OD Express - Delivery Services</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar1">
+  <img src="logo.jpeg" class="ODicn">
+
+  <h1>OD EXPRESS</h1>
+
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Quality Delivery Services</h2>
+    <p>A reliable delivery you can trust — or your next ride is FREE!</p>
+
+    <button class="btn" onclick="callNow()">Call Now</button>
+    <button class="btn" onclick="whatsapp()">WhatsApp</button>
+    <button class="btn" onclick="tiktok()">Tiktok</button>
+  </div>
+
+</section>
+
+<section class="booking">
+  <h2>Book a Delivery</h2>
+
+  <form id="bookingForm">
+    <input type="text" placeholder="Your Name" id="name" required>
+    <input type="text" placeholder="Pickup Location" id="pickup" required>
+    <input type="text" placeholder="Drop-off Location" id="dropoff" required>
+    <input type="tel" placeholder="Phone Number" id="phone" required>
+    <input tyype="text" placeholder="Additional Notes (optional)" id="notes">
+    <button type="submit" class="btn">Book Now</button>
+  </form>
+
+  <p id="message"></p>
+</section>
+
+<!--  -->
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>Our Services</h2>
+
+  <div class="service-box">
+    <div class="card">
+      <h3>Pickups & Drop-offs</h3>
+      <p>Fast delivery for vendors and businesses.</p>
+    </div>
+
+    <div class="card">
+      <h3>Food Delivery</h3>
+      <p>Hot and fresh meals delivered quickly.</p>
+    </div>
+
+    <div class="card">
+      <h3>Package Delivery</h3>
+      <p>Safe and secure package transport.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why">
+  <h2>Why Choose Us?</h2>
+  <p>Fast • Reliable • Affordable</p>
+  <p>Operating Hours: Mon–Sat 9:00 AM – 09:00 PM</p>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Need a Delivery Right Now?</h2>
+  <button class="btn" onclick="callNow()">📞 Call +220 417 5175</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>OD Express | Gambia | Delivering Excellence</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
