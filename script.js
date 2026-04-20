@@ -7,7 +7,7 @@ function whatsapp() {
 }
 
 function tiktok() {
-    window.open("https://tiktok.com", "_blank");
+    window.open("https://tiktok.com/@odexpress07", "_blank");
 }
 
 
